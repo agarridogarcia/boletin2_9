@@ -16,7 +16,7 @@ public class Boletin2_7 {
        tiempo=tiempo * 12;
        interes_anual=interes_anual/1200;
        double auxiliar=Math.pow((1+interes_anual),tiempo);
-       renta_mensual=(float)( nominal*auxiliar*interes_anual/(auxiliar+1)); //el (float) es para pasar los double
+       renta_mensual=(float)( nominal*auxiliar*interes_anual/(auxiliar+1)); //el (float) es para pasar los double a float
        
              JOptionPane.showMessageDialog(null, "Renta Mensual="+renta_mensual);
                        
